@@ -1,0 +1,5 @@
+INFO 2024-03-31 17:35:45,514 autoreload 7560 5360 Watching for file changes with StatReloader
+INFO 2024-03-31 17:35:51,864 views 7560 12096 Посещена главная страница
+INFO 2024-03-31 17:35:51,865 basehttp 7560 12096 "GET / HTTP/1.1" 200 274
+INFO 2024-03-31 17:35:59,228 views 7560 12096 Посещена страница "О себе"
+INFO 2024-03-31 17:35:59,229 basehttp 7560 12096 "GET /about/ HTTP/1.1" 200 176
