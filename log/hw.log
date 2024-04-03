@@ -3,3 +3,30 @@ INFO 2024-03-31 17:35:51,864 views 7560 12096 Посещена главная с
 INFO 2024-03-31 17:35:51,865 basehttp 7560 12096 "GET / HTTP/1.1" 200 274
 INFO 2024-03-31 17:35:59,228 views 7560 12096 Посещена страница "О себе"
 INFO 2024-03-31 17:35:59,229 basehttp 7560 12096 "GET /about/ HTTP/1.1" 200 176
+INFO 2024-04-03 16:46:51,666 autoreload 16956 14656 Watching for file changes with StatReloader
+INFO 2024-04-03 16:47:01,145 views 16956 18592 Посещена главная страница
+INFO 2024-04-03 16:47:01,146 basehttp 16956 18592 "GET / HTTP/1.1" 200 274
+INFO 2024-04-03 16:47:12,115 views 16956 18592 Посещена страница "О себе"
+INFO 2024-04-03 16:47:12,115 basehttp 16956 18592 "GET /about/ HTTP/1.1" 200 176
+INFO 2024-04-03 16:47:18,118 basehttp 16956 18592 "GET /client/ HTTP/1.1" 200 27
+INFO 2024-04-03 16:47:35,707 basehttp 16956 18592 "GET /product/ HTTP/1.1" 200 27
+INFO 2024-04-03 16:47:43,293 basehttp 16956 18592 "GET /order/ HTTP/1.1" 200 27
+INFO 2024-04-03 16:47:48,315 basehttp 16956 18592 "GET /order/1 HTTP/1.1" 301 0
+INFO 2024-04-03 16:47:48,332 basehttp 16956 2384 "GET /order/1/ HTTP/1.1" 200 33
+INFO 2024-04-03 16:47:56,357 basehttp 16956 2384 "GET /client/1/ HTTP/1.1" 200 34
+INFO 2024-04-03 16:48:04,571 basehttp 16956 2384 "GET /product/1/ HTTP/1.1" 200 35
+INFO 2024-04-03 17:43:49,126 autoreload 19444 19988 Watching for file changes with StatReloader
+INFO 2024-04-03 17:44:09,702 basehttp 19444 8000 "GET /product/1/ HTTP/1.1" 200 115
+INFO 2024-04-03 17:44:20,266 basehttp 19444 8000 "GET /client/1/ HTTP/1.1" 200 133
+INFO 2024-04-03 17:44:26,507 basehttp 19444 8000 "GET /order/1/ HTTP/1.1" 200 203
+INFO 2024-04-03 17:44:44,479 basehttp 19444 8000 "GET /order HTTP/1.1" 301 0
+INFO 2024-04-03 17:44:44,488 basehttp 19444 20212 "GET /order/ HTTP/1.1" 200 27
+INFO 2024-04-03 17:47:22,343 autoreload 19444 19988 C:\Users\omaks\Desktop\GeekBrains\python_django\hw_django_project\hw_app\views.py changed, reloading.
+INFO 2024-04-03 17:47:22,930 autoreload 16076 16320 Watching for file changes with StatReloader
+INFO 2024-04-03 17:47:27,846 basehttp 16076 16380 "GET /order/ HTTP/1.1" 200 5
+INFO 2024-04-03 17:47:31,247 basehttp 16076 16380 "GET /order/1/ HTTP/1.1" 200 36
+INFO 2024-04-03 17:47:41,873 basehttp 16076 16380 "GET /client/1/ HTTP/1.1" 200 45
+INFO 2024-04-03 17:48:11,463 autoreload 16076 16320 C:\Users\omaks\Desktop\GeekBrains\python_django\hw_django_project\hw_app\views.py changed, reloading.
+INFO 2024-04-03 17:48:11,981 autoreload 15756 14248 Watching for file changes with StatReloader
+INFO 2024-04-03 17:48:16,160 basehttp 15756 560 "GET /client/1/ HTTP/1.1" 200 133
+INFO 2024-04-03 17:48:32,655 basehttp 15756 560 "GET /order/1/ HTTP/1.1" 200 203
