@@ -56,7 +56,10 @@ ROOT_URLCONF = 'hw_django_project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            BASE_DIR / 'templates',
+            BASE_DIR / r'C:\Users\omaks\Desktop\GeekBrains\python_django\hw_django_project\hw_app\templates\hw_app'
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

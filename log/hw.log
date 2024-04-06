@@ -30,3 +30,82 @@ INFO 2024-04-03 17:48:11,463 autoreload 16076 16320 C:\Users\omaks\Desktop\GeekB
 INFO 2024-04-03 17:48:11,981 autoreload 15756 14248 Watching for file changes with StatReloader
 INFO 2024-04-03 17:48:16,160 basehttp 15756 560 "GET /client/1/ HTTP/1.1" 200 133
 INFO 2024-04-03 17:48:32,655 basehttp 15756 560 "GET /order/1/ HTTP/1.1" 200 203
+INFO 2024-04-06 13:55:13,378 autoreload 9676 6528 Watching for file changes with StatReloader
+INFO 2024-04-06 13:55:15,710 views 9676 3116 Посещена главная страница
+INFO 2024-04-06 13:55:15,710 basehttp 9676 3116 "GET / HTTP/1.1" 200 274
+WARNING 2024-04-06 13:55:15,884 log 9676 3116 Not Found: /favicon.ico
+WARNING 2024-04-06 13:55:15,884 basehttp 9676 3116 "GET /favicon.ico HTTP/1.1" 404 3747
+INFO 2024-04-06 13:55:41,898 basehttp 9676 3116 "GET /orders_period HTTP/1.1" 301 0
+ERROR 2024-04-06 13:55:42,048 log 9676 2448 Internal Server Error: /orders_period/
+Traceback (most recent call last):
+  File "C:\Users\omaks\Desktop\GeekBrains\python_django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omaks\Desktop\GeekBrains\python_django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omaks\Desktop\GeekBrains\python_django\hw_django_project\hw_app\views.py", line 159, in orders_by_period
+    return render(request, 'orders_by_period.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omaks\Desktop\GeekBrains\python_django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omaks\Desktop\GeekBrains\python_django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omaks\Desktop\GeekBrains\python_django\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: orders_by_period.html
+ERROR 2024-04-06 13:55:42,048 basehttp 9676 2448 "GET /orders_period/ HTTP/1.1" 500 87132
+INFO 2024-04-06 13:57:30,392 autoreload 9676 6528 C:\Users\omaks\Desktop\GeekBrains\python_django\hw_django_project\hw_django_project\settings.py changed, reloading.
+INFO 2024-04-06 13:57:31,033 autoreload 4704 9420 Watching for file changes with StatReloader
+INFO 2024-04-06 13:57:56,844 autoreload 4704 9420 C:\Users\omaks\Desktop\GeekBrains\python_django\hw_django_project\hw_django_project\settings.py changed, reloading.
+INFO 2024-04-06 13:57:57,363 autoreload 13048 16332 Watching for file changes with StatReloader
+INFO 2024-04-06 13:58:00,105 basehttp 13048 16060 "GET /orders_period/ HTTP/1.1" 200 17942
+INFO 2024-04-06 13:58:32,022 basehttp 13048 16060 "GET /orders_period/ HTTP/1.1" 200 17810
+INFO 2024-04-06 13:58:34,089 basehttp 13048 16060 "GET /orders_period/ HTTP/1.1" 200 17810
+INFO 2024-04-06 13:58:34,880 basehttp 13048 16060 "GET /orders_period/ HTTP/1.1" 200 17810
+INFO 2024-04-06 13:59:00,858 autoreload 4064 12624 Watching for file changes with StatReloader
+INFO 2024-04-06 13:59:07,177 views 4064 10880 Посещена главная страница
+INFO 2024-04-06 13:59:07,178 basehttp 4064 10880 "GET / HTTP/1.1" 200 274
+INFO 2024-04-06 13:59:11,588 basehttp 4064 10880 "GET /orders_period/ HTTP/1.1" 200 17809
+INFO 2024-04-06 14:03:00,778 autoreload 15188 8280 Watching for file changes with StatReloader
+INFO 2024-04-06 14:03:07,212 views 15188 288 Посещена главная страница
+INFO 2024-04-06 14:03:07,213 basehttp 15188 288 "GET / HTTP/1.1" 200 274
+INFO 2024-04-06 14:03:12,512 basehttp 15188 288 "GET /orders_period/ HTTP/1.1" 200 18910
+INFO 2024-04-06 14:06:37,037 basehttp 15188 288 "GET /orders_period/ HTTP/1.1" 200 19021
+INFO 2024-04-06 14:07:52,548 basehttp 15188 288 "GET /orders_period/ HTTP/1.1" 200 19351
+INFO 2024-04-06 14:11:55,594 autoreload 2112 8892 Watching for file changes with StatReloader
+INFO 2024-04-06 14:12:01,070 views 2112 12496 Посещена главная страница
+INFO 2024-04-06 14:12:01,071 basehttp 2112 12496 "GET / HTTP/1.1" 200 392
+WARNING 2024-04-06 14:12:03,201 log 2112 12496 Not Found: /{% url 'orders_period' %}
+WARNING 2024-04-06 14:12:03,201 basehttp 2112 12496 "GET /%7B%%20url%20'orders_period'%20%%7D HTTP/1.1" 404 3833
+INFO 2024-04-06 14:12:39,806 autoreload 2112 8892 C:\Users\omaks\Desktop\GeekBrains\python_django\hw_django_project\hw_app\views.py changed, reloading.
+INFO 2024-04-06 14:12:40,681 autoreload 6380 5824 Watching for file changes with StatReloader
+WARNING 2024-04-06 14:12:47,160 log 6380 2724 Not Found: /{% url 'orders_period' %}
+WARNING 2024-04-06 14:12:47,160 basehttp 6380 2724 "GET /%7B%%20url%20'orders_period'%20%%7D HTTP/1.1" 404 3833
+INFO 2024-04-06 14:12:51,639 views 6380 2724 Посещена главная страница
+INFO 2024-04-06 14:12:51,640 basehttp 6380 2724 "GET / HTTP/1.1" 200 395
+WARNING 2024-04-06 14:12:52,950 log 6380 2724 Not Found: /{% url 'orders_by_period' %}
+WARNING 2024-04-06 14:12:52,951 basehttp 6380 2724 "GET /%7B%%20url%20'orders_by_period'%20%%7D HTTP/1.1" 404 3842
+INFO 2024-04-06 14:14:22,849 autoreload 6380 5824 C:\Users\omaks\Desktop\GeekBrains\python_django\hw_django_project\hw_app\urls.py changed, reloading.
+INFO 2024-04-06 14:14:23,484 autoreload 1528 11512 Watching for file changes with StatReloader
+INFO 2024-04-06 14:14:29,043 views 1528 7640 Посещена главная страница
+INFO 2024-04-06 14:14:29,044 basehttp 1528 7640 "GET / HTTP/1.1" 200 395
+WARNING 2024-04-06 14:14:30,717 log 1528 7640 Not Found: /{% url 'orders_by_period' %}
+WARNING 2024-04-06 14:14:30,717 basehttp 1528 7640 "GET /%7B%%20url%20'orders_by_period'%20%%7D HTTP/1.1" 404 3839
+INFO 2024-04-06 14:15:10,581 autoreload 1528 11512 C:\Users\omaks\Desktop\GeekBrains\python_django\hw_django_project\hw_app\views.py changed, reloading.
+INFO 2024-04-06 14:15:11,222 autoreload 6176 14056 Watching for file changes with StatReloader
+INFO 2024-04-06 14:15:16,417 views 6176 16364 Посещена главная страница
+INFO 2024-04-06 14:15:16,418 basehttp 6176 16364 "GET / HTTP/1.1" 200 392
+WARNING 2024-04-06 14:15:18,332 log 6176 16364 Not Found: /{% url 'orders_period' %}
+WARNING 2024-04-06 14:15:18,332 basehttp 6176 16364 "GET /%7B%%20url%20'orders_period'%20%%7D HTTP/1.1" 404 3830
+INFO 2024-04-06 14:16:22,817 views 6176 16364 Посещена главная страница
+INFO 2024-04-06 14:16:22,818 basehttp 6176 16364 "GET / HTTP/1.1" 200 392
+WARNING 2024-04-06 14:16:25,162 log 6176 16364 Not Found: /{% url 'orders_period' %}
+WARNING 2024-04-06 14:16:25,162 basehttp 6176 16364 "GET /%7B%%20url%20'orders_period'%20%%7D HTTP/1.1" 404 3830
+INFO 2024-04-06 14:17:59,738 autoreload 6176 14056 C:\Users\omaks\Desktop\GeekBrains\python_django\hw_django_project\hw_app\views.py changed, reloading.
+INFO 2024-04-06 14:18:00,470 autoreload 4956 10848 Watching for file changes with StatReloader
+INFO 2024-04-06 14:18:05,768 views 4956 6528 Посещена главная страница
+INFO 2024-04-06 14:18:05,769 basehttp 4956 6528 "GET / HTTP/1.1" 200 274
+INFO 2024-04-06 14:18:23,129 basehttp 4956 6528 "GET /orders_period/ HTTP/1.1" 200 19351

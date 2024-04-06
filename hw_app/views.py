@@ -3,6 +3,10 @@ import logging
 import json
 from django.http import JsonResponse
 from .models import Client, Product, Order
+from django.shortcuts import render
+from django.utils import timezone
+from datetime import timedelta
+
 
 logger = logging.getLogger(__name__)
 
@@ -127,3 +131,27 @@ def get_order(request, order_id):
                              'products': products})
     except Order.DoesNotExist:
         return JsonResponse({'error': 'Order does not exist'})
+
+
+def orders_by_period(request):
+
+    end_date_week = timezone.now()
+    start_date_week = end_date_week - timedelta(days=7)
+
+    end_date_month = timezone.now()
+    start_date_month = end_date_month - timedelta(days=30)
+
+    end_date_year = timezone.now()
+    start_date_year = end_date_year - timedelta(days=365)
+
+    orders_week = Order.objects.filter(order_date__range=(start_date_week, end_date_week))
+    orders_month = Order.objects.filter(order_date__range=(start_date_month, end_date_month))
+    orders_year = Order.objects.filter(order_date__range=(start_date_year, end_date_year))
+
+    context = {
+        'orders_week': orders_week,
+        'orders_month': orders_month,
+        'orders_year': orders_year,
+    }
+
+    return render(request, 'orders_by_period.html', context)
