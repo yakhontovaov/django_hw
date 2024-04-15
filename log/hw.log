@@ -109,3 +109,25 @@ INFO 2024-04-06 14:18:00,470 autoreload 4956 10848 Watching for file changes wit
 INFO 2024-04-06 14:18:05,768 views 4956 6528 Посещена главная страница
 INFO 2024-04-06 14:18:05,769 basehttp 4956 6528 "GET / HTTP/1.1" 200 274
 INFO 2024-04-06 14:18:23,129 basehttp 4956 6528 "GET /orders_period/ HTTP/1.1" 200 19351
+INFO 2024-04-15 21:16:53,991 autoreload 13236 12104 Watching for file changes with StatReloader
+INFO 2024-04-15 21:16:56,632 views 13236 7132 Посещена главная страница
+INFO 2024-04-15 21:16:56,632 basehttp 13236 7132 "GET / HTTP/1.1" 200 274
+WARNING 2024-04-15 21:16:56,885 log 13236 7132 Not Found: /favicon.ico
+WARNING 2024-04-15 21:16:56,885 basehttp 13236 7132 "GET /favicon.ico HTTP/1.1" 404 3925
+INFO 2024-04-15 21:17:11,011 basehttp 13236 7132 "GET /upload_photo HTTP/1.1" 301 0
+INFO 2024-04-15 21:17:11,106 basehttp 13236 17120 "GET /upload_photo/ HTTP/1.1" 200 1225
+INFO 2024-04-15 21:17:46,766 basehttp 13236 17120 "GET /orders_period/ HTTP/1.1" 200 13068
+INFO 2024-04-15 21:18:03,235 basehttp 13236 17120 "GET /upload_photo/ HTTP/1.1" 200 1225
+INFO 2024-04-15 21:19:25,051 autoreload 13236 12104 C:\Users\omaks\Desktop\GeekBrains\python_django\hw_django_project\hw_app\forms.py changed, reloading.
+INFO 2024-04-15 21:19:25,673 autoreload 6348 16796 Watching for file changes with StatReloader
+INFO 2024-04-15 21:20:06,850 autoreload 12544 16632 Watching for file changes with StatReloader
+INFO 2024-04-15 21:20:09,176 basehttp 12544 15936 "GET /upload_photo/ HTTP/1.1" 200 1225
+INFO 2024-04-15 21:20:42,588 basehttp 12544 15936 "POST /upload_photo/ HTTP/1.1" 302 0
+INFO 2024-04-15 21:20:42,596 views 12544 15936 Посещена главная страница
+INFO 2024-04-15 21:20:42,596 basehttp 12544 15936 "GET / HTTP/1.1" 200 274
+INFO 2024-04-15 21:23:03,763 autoreload 12544 16632 C:\Users\omaks\Desktop\GeekBrains\python_django\hw_django_project\hw_app\views.py changed, reloading.
+INFO 2024-04-15 21:23:04,250 autoreload 14112 9440 Watching for file changes with StatReloader
+INFO 2024-04-15 21:23:09,097 views 14112 14352 Посещена главная страница
+INFO 2024-04-15 21:23:09,097 basehttp 14112 14352 "GET / HTTP/1.1" 200 274
+INFO 2024-04-15 21:23:19,177 basehttp 14112 14352 "GET /upload_photo/ HTTP/1.1" 200 1225
+INFO 2024-04-15 21:23:33,706 basehttp 14112 14352 "POST /upload_photo/ HTTP/1.1" 200 42

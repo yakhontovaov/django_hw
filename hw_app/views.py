@@ -6,6 +6,7 @@ from .models import Client, Product, Order
 from django.shortcuts import render
 from django.utils import timezone
 from datetime import timedelta
+from .forms import ProductForm
 
 
 logger = logging.getLogger(__name__)
@@ -101,6 +102,17 @@ def get_product(request, product_id):
                              'added_date': product.added_date})
     except Product.DoesNotExist:
         return JsonResponse({'error': 'Product does not exist'})
+
+
+def upload_photo(request):
+    if request.method == 'POST':
+        form = ProductForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            return HttpResponse('Фото успешно добавлено')
+    else:
+        form = ProductForm()
+    return render(request, 'upload_photo.html', {'form': form})
 
 
 def create_order(request):
