@@ -688,3 +688,108 @@ INFO 2024-04-16 22:52:21,094 basehttp 18016 17772 "GET /admin/hw_app/product/ HT
 INFO 2024-04-16 22:52:21,123 basehttp 18016 17772 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
 INFO 2024-04-16 22:53:06,578 autoreload 18016 17836 C:\Users\omaks\Desktop\GeekBrains\python_django\hw_django_project\hw_app\admin.py changed, reloading.
 INFO 2024-04-16 22:53:07,151 autoreload 7732 13512 Watching for file changes with StatReloader
+INFO 2024-04-24 21:46:09,164 autoreload 14740 3708 Watching for file changes with StatReloader
+ERROR 2024-04-24 21:46:12,998 basehttp 14740 3616 "GET / HTTP/1.1" 500 59
+ERROR 2024-04-24 21:46:13,370 basehttp 14740 3616 "GET /favicon.ico HTTP/1.1" 500 59
+INFO 2024-04-24 21:46:29,355 autoreload 14740 3708 C:\Users\omaks\Desktop\GeekBrains\python_django\hw_django_project\hw_django_project\settings.py changed, reloading.
+INFO 2024-04-24 21:46:30,058 autoreload 8364 14332 Watching for file changes with StatReloader
+INFO 2024-04-24 21:46:33,665 views 8364 8168 Посещена главная страница
+INFO 2024-04-24 21:46:33,665 basehttp 8364 8168 "GET / HTTP/1.1" 200 274
+WARNING 2024-04-24 21:46:33,818 log 8364 8168 Not Found: /favicon.ico
+WARNING 2024-04-24 21:46:33,818 basehttp 8364 8168 "GET /favicon.ico HTTP/1.1" 404 4035
+INFO 2024-04-24 21:49:20,020 autoreload 8364 14332 C:\Users\omaks\Desktop\GeekBrains\python_django\hw_django_project\hw_django_project\settings.py changed, reloading.
+INFO 2024-04-24 21:49:20,794 autoreload 12032 9012 Watching for file changes with StatReloader
+INFO 2024-04-24 21:51:09,465 views 12032 1892 Посещена главная страница
+INFO 2024-04-24 21:51:09,465 basehttp 12032 1892 "GET / HTTP/1.1" 200 274
+INFO 2024-04-24 21:54:19,368 autoreload 12032 9012 C:\Users\omaks\Desktop\GeekBrains\python_django\hw_django_project\hw_django_project\settings.py changed, reloading.
+INFO 2024-04-24 21:54:19,987 autoreload 2812 7492 Watching for file changes with StatReloader
+INFO 2024-04-24 21:55:19,365 autoreload 8420 15100 Watching for file changes with StatReloader
+INFO 2024-04-24 21:55:22,343 views 8420 3708 Посещена главная страница
+INFO 2024-04-24 21:55:22,343 basehttp 8420 3708 "GET / HTTP/1.1" 200 274
+INFO 2024-04-24 21:55:23,676 views 8420 3708 Посещена главная страница
+INFO 2024-04-24 21:55:23,683 basehttp 8420 3708 "GET / HTTP/1.1" 200 274
+INFO 2024-04-24 21:55:40,427 views 8420 3708 Посещена главная страница
+INFO 2024-04-24 21:55:40,428 basehttp 8420 3708 "GET / HTTP/1.1" 200 274
+INFO 2024-04-24 21:56:14,521 basehttp 8420 3708 "GET /about HTTP/1.1" 301 0
+INFO 2024-04-24 21:56:14,527 views 8420 3772 Посещена страница "О себе"
+INFO 2024-04-24 21:56:14,527 basehttp 8420 3772 "GET /about/ HTTP/1.1" 200 176
+INFO 2024-04-24 21:56:29,982 views 8420 3772 Посещена главная страница
+INFO 2024-04-24 21:56:29,984 basehttp 8420 3772 "GET / HTTP/1.1" 200 274
+INFO 2024-04-24 21:58:53,859 autoreload 3556 1384 Watching for file changes with StatReloader
+INFO 2024-04-24 21:58:56,598 views 3556 3180 Посещена главная страница
+INFO 2024-04-24 21:58:56,600 basehttp 3556 3180 "GET / HTTP/1.1" 200 274
+INFO 2024-04-24 21:58:57,507 views 3556 3180 Посещена главная страница
+INFO 2024-04-24 21:58:57,507 basehttp 3556 3180 "GET / HTTP/1.1" 200 274
+INFO 2024-04-24 21:58:57,937 views 3556 3180 Посещена главная страница
+INFO 2024-04-24 21:58:57,937 basehttp 3556 3180 "GET / HTTP/1.1" 200 274
+INFO 2024-04-24 22:00:35,216 autoreload 10344 444 Watching for file changes with StatReloader
+INFO 2024-04-24 22:00:37,044 views 10344 11484 Посещена главная страница
+INFO 2024-04-24 22:00:37,044 basehttp 10344 11484 "GET / HTTP/1.1" 200 274
+INFO 2024-04-24 22:03:57,513 views 10344 11484 Посещена главная страница
+INFO 2024-04-24 22:03:57,513 basehttp 10344 11484 "GET / HTTP/1.1" 200 274
+INFO 2024-04-24 22:03:58,095 views 10344 11484 Посещена главная страница
+INFO 2024-04-24 22:03:58,095 basehttp 10344 11484 "GET / HTTP/1.1" 200 274
+WARNING 2024-04-24 22:04:06,687 log 10344 11484 Not Found: /__debug__/
+WARNING 2024-04-24 22:04:06,687 basehttp 10344 11484 "GET /__debug__/ HTTP/1.1" 404 5269
+WARNING 2024-04-24 22:04:32,531 log 10344 11484 Not Found: /__debug__/ render_panel/
+WARNING 2024-04-24 22:04:32,532 basehttp 10344 11484 "GET /__debug__/%20render_panel/ HTTP/1.1" 404 5313
+WARNING 2024-04-24 22:04:40,933 log 10344 11484 Not Found: /__debug__/render_panel/
+WARNING 2024-04-24 22:04:40,933 basehttp 10344 11484 "GET /__debug__/render_panel/ HTTP/1.1" 404 4253
+WARNING 2024-04-24 22:04:59,778 log 10344 11484 Not Found: /__debug__/
+WARNING 2024-04-24 22:04:59,778 basehttp 10344 11484 "GET /__debug__/ HTTP/1.1" 404 5269
+INFO 2024-04-24 22:05:27,419 autoreload 10344 444 C:\Users\omaks\Desktop\GeekBrains\python_django\hw_django_project\hw_django_project\urls.py changed, reloading.
+INFO 2024-04-24 22:05:27,966 autoreload 13112 10948 Watching for file changes with StatReloader
+INFO 2024-04-24 22:05:55,973 autoreload 13112 10948 C:\Users\omaks\Desktop\GeekBrains\python_django\hw_django_project\hw_django_project\urls.py changed, reloading.
+INFO 2024-04-24 22:05:56,483 autoreload 7096 12048 Watching for file changes with StatReloader
+WARNING 2024-04-24 22:06:00,964 log 7096 8636 Not Found: /__debug__/
+WARNING 2024-04-24 22:06:00,964 basehttp 7096 8636 "GET /__debug__/ HTTP/1.1" 404 5269
+WARNING 2024-04-24 22:06:02,211 log 7096 8636 Not Found: /__debug__/
+WARNING 2024-04-24 22:06:02,212 basehttp 7096 8636 "GET /__debug__/ HTTP/1.1" 404 5269
+WARNING 2024-04-24 22:06:02,849 log 7096 8636 Not Found: /__debug__/
+WARNING 2024-04-24 22:06:02,849 basehttp 7096 8636 "GET /__debug__/ HTTP/1.1" 404 5269
+INFO 2024-04-24 22:06:09,040 views 7096 8636 Посещена главная страница
+INFO 2024-04-24 22:06:09,040 basehttp 7096 8636 "GET / HTTP/1.1" 200 274
+INFO 2024-04-24 22:06:19,788 autoreload 7096 12048 C:\Users\omaks\Desktop\GeekBrains\python_django\hw_django_project\hw_django_project\urls.py changed, reloading.
+INFO 2024-04-24 22:06:20,333 autoreload 7628 2756 Watching for file changes with StatReloader
+INFO 2024-04-24 22:06:31,741 views 7628 1616 Посещена главная страница
+INFO 2024-04-24 22:06:31,742 basehttp 7628 1616 "GET / HTTP/1.1" 200 274
+INFO 2024-04-24 22:08:02,087 autoreload 7628 2756 C:\Users\omaks\Desktop\GeekBrains\python_django\hw_django_project\hw_django_project\urls.py changed, reloading.
+INFO 2024-04-24 22:08:02,658 autoreload 4656 12708 Watching for file changes with StatReloader
+INFO 2024-04-24 22:08:10,126 autoreload 4656 12708 C:\Users\omaks\Desktop\GeekBrains\python_django\hw_django_project\hw_django_project\urls.py changed, reloading.
+INFO 2024-04-24 22:08:10,745 autoreload 13944 14504 Watching for file changes with StatReloader
+INFO 2024-04-24 22:08:13,287 views 13944 12168 Посещена главная страница
+INFO 2024-04-24 22:08:13,287 basehttp 13944 12168 "GET / HTTP/1.1" 200 274
+INFO 2024-04-24 22:08:14,655 views 13944 12168 Посещена главная страница
+INFO 2024-04-24 22:08:14,655 basehttp 13944 12168 "GET / HTTP/1.1" 200 274
+INFO 2024-04-24 22:08:15,053 views 13944 12168 Посещена главная страница
+INFO 2024-04-24 22:08:15,053 basehttp 13944 12168 "GET / HTTP/1.1" 200 274
+INFO 2024-04-24 22:08:15,189 views 13944 12168 Посещена главная страница
+INFO 2024-04-24 22:08:15,189 basehttp 13944 12168 "GET / HTTP/1.1" 200 274
+INFO 2024-04-24 22:08:15,345 views 13944 12168 Посещена главная страница
+INFO 2024-04-24 22:08:15,345 basehttp 13944 12168 "GET / HTTP/1.1" 200 274
+INFO 2024-04-24 22:08:15,500 views 13944 12168 Посещена главная страница
+INFO 2024-04-24 22:08:15,508 basehttp 13944 12168 "GET / HTTP/1.1" 200 274
+INFO 2024-04-24 22:08:21,716 autoreload 13132 10980 Watching for file changes with StatReloader
+INFO 2024-04-24 22:08:24,682 views 13132 3416 Посещена главная страница
+INFO 2024-04-24 22:08:24,683 basehttp 13132 3416 "GET / HTTP/1.1" 200 274
+INFO 2024-04-24 22:08:25,560 views 13132 3416 Посещена главная страница
+INFO 2024-04-24 22:08:25,561 basehttp 13132 3416 "GET / HTTP/1.1" 200 274
+INFO 2024-04-24 22:08:48,801 autoreload 13132 10980 C:\Users\omaks\Desktop\GeekBrains\python_django\hw_django_project\hw_django_project\urls.py changed, reloading.
+INFO 2024-04-24 22:08:49,411 autoreload 4748 6752 Watching for file changes with StatReloader
+INFO 2024-04-24 22:09:21,541 autoreload 4748 6752 C:\Users\omaks\Desktop\GeekBrains\python_django\hw_django_project\hw_django_project\urls.py changed, reloading.
+INFO 2024-04-24 22:09:22,206 autoreload 2840 7364 Watching for file changes with StatReloader
+INFO 2024-04-24 22:16:18,012 autoreload 5816 9396 Watching for file changes with StatReloader
+INFO 2024-04-24 22:16:20,852 views 5816 14108 Посещена главная страница
+INFO 2024-04-24 22:16:20,876 basehttp 5816 14108 "GET / HTTP/1.1" 200 10503
+INFO 2024-04-24 22:16:33,956 basehttp 5816 14108 "GET /__debug__/render_panel/?store_id=6dc4003133dc4addaf5dc2256022ea17&panel_id=HistoryPanel HTTP/1.1" 200 2505
+INFO 2024-04-24 22:16:33,972 basehttp 5816 14108 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3515
+INFO 2024-04-24 22:16:35,860 basehttp 5816 14108 "GET /__debug__/render_panel/?store_id=6dc4003133dc4addaf5dc2256022ea17&panel_id=VersionsPanel HTTP/1.1" 200 760
+INFO 2024-04-24 22:16:37,940 basehttp 5816 14108 "GET /__debug__/render_panel/?store_id=6dc4003133dc4addaf5dc2256022ea17&panel_id=SettingsPanel HTTP/1.1" 200 27019
+INFO 2024-04-24 22:16:39,743 basehttp 5816 14108 "GET /__debug__/render_panel/?store_id=6dc4003133dc4addaf5dc2256022ea17&panel_id=HeadersPanel HTTP/1.1" 200 5290
+INFO 2024-04-24 22:16:40,499 basehttp 5816 14108 "GET /__debug__/render_panel/?store_id=6dc4003133dc4addaf5dc2256022ea17&panel_id=RequestPanel HTTP/1.1" 200 1659
+INFO 2024-04-24 22:16:41,503 basehttp 5816 14108 "GET /__debug__/render_panel/?store_id=6dc4003133dc4addaf5dc2256022ea17&panel_id=SQLPanel HTTP/1.1" 200 428
+INFO 2024-04-24 22:16:44,413 basehttp 5816 14108 "GET /__debug__/render_panel/?store_id=6dc4003133dc4addaf5dc2256022ea17&panel_id=StaticFilesPanel HTTP/1.1" 200 35260
+INFO 2024-04-24 22:16:45,459 basehttp 5816 14108 "GET /__debug__/render_panel/?store_id=6dc4003133dc4addaf5dc2256022ea17&panel_id=TemplatesPanel HTTP/1.1" 200 399
+INFO 2024-04-24 22:16:46,823 basehttp 5816 14108 "GET /__debug__/render_panel/?store_id=6dc4003133dc4addaf5dc2256022ea17&panel_id=CachePanel HTTP/1.1" 200 1737
+INFO 2024-04-24 22:16:47,740 basehttp 5816 14108 "GET /__debug__/render_panel/?store_id=6dc4003133dc4addaf5dc2256022ea17&panel_id=SignalsPanel HTTP/1.1" 200 2231
+INFO 2024-04-24 22:16:49,168 basehttp 5816 14108 "GET /__debug__/render_panel/?store_id=6dc4003133dc4addaf5dc2256022ea17&panel_id=ProfilingPanel HTTP/1.1" 200 58302

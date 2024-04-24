@@ -1,0 +1,7 @@
+/log/
+/media/
+/static/
+/product_photos/
+*.sqlite3
+*.log
+*.pyc
