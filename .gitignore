@@ -1,5 +1,5 @@
 /static/
-/product_photos/
+/media/
 *.sqlite3
 *.log
 *.pyc

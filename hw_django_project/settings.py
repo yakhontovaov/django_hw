@@ -32,7 +32,7 @@ CSRF_COOKIE_SECURE = True
 ALLOWED_HOSTS = [
     # '127.0.0.1',
     # '192.168.0.13',  # ip ноута
-    'yakhont.pythonanywhere.com',
+    'yakhontov.pythonanywhere.com',
 ]
 
 INTERNAL_IPS = [
@@ -94,12 +94,12 @@ DATABASES = {
         # 'ENGINE': 'django.db.backends.sqlite3',
         # 'NAME': BASE_DIR / 'db.sqlite3',
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'yakhont$default',
-        'USER': 'yakhont',
+        'NAME': 'yakhontov$default',
+        'USER': 'yakhontov',
         'PASSWORD': os.getenv('MYSQL_PASSWORD'),
-        'HOST': 'yakhont.mysql.pythonanywhere-services.com',
+        'HOST': 'yakhontov.mysql.pythonanywhere-services.com',
         'OPTIONS': {
-            'init_command': "SET NAMES 'utf8mb4'; SET sql_mode='STRICT_TRANS_TABLES'",
+            'init_command': "SET NAMES 'utf8mb4';SET sql_mode='STRICT_TRANS_TABLES'",
             'charset': 'utf8mb4',
         }
     }
