@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Список заказов</title>
+</head>
+<body>
+
+    <h2>Заказы за последнюю неделю</h2>
+    <ul>
+        {% for order in orders_week %}
+            <li>{{ order.client.name }} - {{ order.order_date }}</li>
+            <ul>
+                {% for product in order.products.all %}
+                    <li>{{ product.name }} - {{ product.price }}</li>
+                {% endfor %}
+            </ul>
+        <p>Общая сумма: {{ order.total_amount }}</p>
+        {% endfor %}
+    </ul>
+
+    <h2>Заказы за последние 30 дней</h2>
+    <ul>
+        {% for order in orders_month %}
+            <li>{{ order.client.name }} - {{ order.order_date }}</li>
+            <ul>
+                {% for product in order.products.all %}
+                    <li>{{ product.name }} - {{ product.price }}</li>
+                {% endfor %}
+            </ul>
+            <p>Общая сумма: {{ order.total_amount }}</p>
+        {% endfor %}
+    </ul>
+
+    <h2>Заказы за последний год</h2>
+    <ul>
+        {% for order in orders_year %}
+            <li>{{ order.client.name }} - {{ order.order_date }}</li>
+            <ul>
+                {% for product in order.products.all %}
+                    <li>{{ product.name }} - {{ product.price }}</li>
+                {% endfor %}
+            </ul>
+            <p>Общая сумма: {{ order.total_amount }}</p>
+        {% endfor %}
+    </ul>
+</body>
+</html>
